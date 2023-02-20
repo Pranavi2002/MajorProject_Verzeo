@@ -1,0 +1,83 @@
+h2{
+    text-align: center;
+    color: orangered;
+    font-size: 28px;
+}
+
+h3{
+    color: blueviolet;
+    font-size: 25px;
+}
+
+p{
+    text-align: justify;
+    font-size: 18px;
+}
+
+.ecommerce{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+}
+
+.des{
+    color: blue;
+}
+
+h4{
+    color: #f50057;
+    font-size: 20px;
+}
+
+li{
+    list-style: square;
+    background-position: 0 5px;
+    line-height: 1.5625;
+    padding: 0 0 4px 30px;
+    margin-left: 1em;
+}
+
+.zoom{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    background: green;
+    animation: zoom 3s ease infinite;
+}
+
+@keyframes zoom {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.25, 1.25);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+
+  .contact{
+    display: block;
+    text-align: center;
+}
+
+.pcontact{
+    height: 100px;
+    animation: zoom 3s ease infinite;
+}
+
+h5{
+    color: darkgoldenrod;
+    font-size: 25px;
+}
+
+.footer{
+    color: white;
+    text-decoration: none;
+    font-family: 'Itim', cursive;
+    text-align: center;
+}
